@@ -79,7 +79,7 @@ const {data, error, status} = useFetch(`https://jsonplaceholder.typicode.com/pho
         <DialogContent dividers>
           {status === 'error' && <div>{error}</div>}
           {status === 'fetching' && <div>Loading...</div>}
-          {status === 'fetched' && <img src={data} alt='avatar__image' style={{width:'50px', height:'50px'}}/ >}
+          {status === 'fetched' && <img src={data.url} alt='avatar__image' style={{width:'50px', height:'50px'}}/ >}
           
           <Typography gutterBottom>
             Address: {user.address.city}, Street: {user.address.street}, zip: {user.address.zipcode} ,Phone No: {user.phone}
