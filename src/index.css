@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.react-toggle-track{
+  width: 38px!important;
+  height: 18px!important;
+}
+
+
+.react-toggle-thumb{
+  width: 16px!important;
+  height: 16px!important;
 }

@@ -1,0 +1,96 @@
+/* Language: css */
+
+/* Path: src\components\Header\Header.module.css */
+
+
+.Header__Wrapper{
+    background-color: #ffffff;
+    
+    padding: 6px 4px;
+    border-width: 1.5px 0;
+    border-style: solid;
+    border-color: #1E4FA0;
+    box-sizing: border-box;   
+    margin-top: 8px;
+    left: 0;
+    right: 0;
+    
+}
+
+.Header__Container{
+  
+     height: 3rem;
+    padding: 6px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 10rem;
+}
+
+
+.Header__Title__Wrapper{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #1E4FA0;
+    margin-left:2rem;
+    text-align: center;
+}
+
+.Searchbar__Wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0rem;
+}
+
+.Header__input{
+    height: 2.3rem;
+    width: 80%;
+    border: 1px solid #e4ecf3;
+    border-radius: 10px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #1E4FA0;
+    background-color:#e4ecf3;
+    padding-left: 2rem; 
+    
+}
+
+.Header__input:focus{
+    outline: none;
+    background-color:#e4ecf3 ;
+}
+
+.Header__input::placeholder{
+    color: #a8b7cf;
+}
+
+.Header__Button__Wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.button{
+    width: 80%;
+    height: 2.3rem;
+    border-width: 0;
+    border-radius: 10px;
+    background-color:#e4ecf3 ;
+    color: #485f7a;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.Search{
+
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: -1.8rem;
+}
