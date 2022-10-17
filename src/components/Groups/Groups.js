@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import BoardSection from '../Board/Board-Section'
 
@@ -11,10 +11,7 @@ import Card from './Card'
 
 function Groups({data, error, status}) {
 
-  const [group, setGroup] = React.useState([])
-
-  const [...groupData] = data && data.filter(user => user.website.split(".")[1])
-
+  const [...groupData] = data && data.filter(user =>  user.website.split(".")[1])
 
 
   return (

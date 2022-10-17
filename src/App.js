@@ -25,8 +25,8 @@ function App() {
           <Navbar />
           <div className="col">
             <Routes>
-            <Route path="/" element={<Board data={data} error={error} status={status}/>}/>
-            <Route path="groups" element={<Groups data={data} error={error} status={status}/>}/>
+            <Route path="/users" element={<Board data={data} error={error} status={status}/>}/>
+            <Route path="/groups" element={<Groups data={data} error={error} status={status}/>}/>
          
            </Routes>
           </div>

@@ -27,7 +27,7 @@ function Navbar() {
           id="menu"
         >
           <li className={classes.List__item}>
-            <NavLink to="/" className={`nav-link px-0 align-middle ${(navData) => navData.isActive ? classes.List__item__active : ''}`}>
+            <NavLink to="/users" className={`nav-link px-0 align-middle ${(navData) => navData.isActive ? classes.List__item__active : ''}`}>
               <div className="form-check">
                 <Radio
                   sx={{
@@ -63,7 +63,7 @@ function Navbar() {
           </li>
         
           <li className={classes.List__item}>
-            <NavLink to="_#nn" className={`nav-link px-0 align-middle ${(navData) => navData.isActive ? classes.List__item__active : ''}`}>
+            <NavLink to="links" className={`nav-link px-0 align-middle ${(navData) => navData.isActive ? classes.List__item__active : ''}`}>
               <div className="form-check">
                 <Radio
                   sx={{
@@ -80,7 +80,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li className={classes.List__item}>
-            <NavLink to="_#h" className={`nav-link px-0 align-middle ${(navData) => navData.isActive ? classes.List__item__active : ''}`}>
+            <NavLink to="new" className={`nav-link px-0 align-middle ${(navData) => navData.isActive ? classes.List__item__active : ''}`}>
               <div className="form-check">
                 <Radio
                   sx={{
